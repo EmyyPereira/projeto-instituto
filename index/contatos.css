@@ -1,0 +1,193 @@
+h1 {
+    text-align: left;
+    font-family: 'Tilt Warp';
+    font-size: 4rem;
+    color: #352f2f;
+}
+
+header {
+    background: #C0C0C0;
+
+}
+
+
+.caixa {
+    position:relative;
+    top:-75px;
+    width: 1205px;
+
+
+}
+
+
+
+nav{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+nav li{
+    display: inline;    
+    margin: 0 0 0 15px;
+
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: 	#1C1C1C;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 300ms;
+}
+
+#subtitulo {
+    text-align:left;
+    font-family: 'Luminari';
+    font-size: 4rem;
+    color: #363636;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+
+main {
+    width: 200px;
+    margin:30px;
+    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label , form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 250%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+p.paragrafo{
+    color:rgb(37, 26, 97);
+
+}
+
+.enviar{
+    width: 200%;
+    padding:15px 0;
+    background: darkslategray;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+  
+
+.enviar {
+padding: 20px 30px;
+color: #fff;
+background-color: #49919e;
+border-radius:3px; 
+-webkit-animation: pulse 1s ease infinite;
+-moz-animation: pulse 1s ease infinite;
+-ms-animation: pulse 1s ease infinite;
+-o-animation: pulse 1s ease infinite;
+animation: pulse 1s ease infinite;
+}
+.enviar:hover {
+color: #fff;
+}
+@-webkit-keyframes pulse {
+0% {
+  -webkit-transform: scale(1);
+}
+25% {
+  -webkit-transform: scale(1.1);
+}
+50% {
+  -webkit-transform: scale(1);
+}
+100% {
+  -webkit-transform: scale(1);
+}
+}
+@-moz-keyframes pulse {
+0% {
+  -moz-transform: scale(1);
+}
+25% {
+  -moz-transform: scale(1.1);
+}
+50% {
+  -moz-transform: scale(1);
+}
+100% {
+  -moz-transform: scale(1);
+}
+}
+@-ms-keyframes pulse {
+0% {
+  -ms-transform: scale(1);
+}
+25% {
+  -ms-transform: scale(1.1);
+}
+50% {
+  -ms-transform: scale(1);
+}
+100% {
+  -ms-transform: scale(1);
+}
+}
+@-o-keyframes pulse {
+
+0% { -o-transform: scale(1); }
+25% { -o-transform: scale(1.1); }
+50% { -o-transform: scale(1); }
+100% { -o-transform: scale(1); } 
+}
+@keyframes pulse { 
+0% {transform: scale(1);}
+50% {transform: scale(1.1);}
+100% {transform: scale(1);}
+}
+
+.enviar:hover {
+    background: darkcyan;
+    transform: scale(1.1);
+
+}
+
+
+#mainloc {
+    text-align:center;
+    font-family: 'Luminari';
+    font-size: 80px;
+    color: #363636;
+    
+    
+    
+    
+
+}
+
